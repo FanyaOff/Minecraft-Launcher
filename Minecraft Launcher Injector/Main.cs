@@ -45,6 +45,11 @@ namespace Minecraft_Launcher_Injector
             guna2PictureBox2.Image = Properties.Resources.Button1;
         }
 
+        private void Main_FormClosed(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {

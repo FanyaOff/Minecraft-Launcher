@@ -18,10 +18,12 @@ namespace Minecraft_Launcher_Injector
             InitializeComponent();
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void Login_FormClosed(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
+
+
 
         private void focus(object sender, EventArgs e)
         {
@@ -45,10 +47,8 @@ namespace Minecraft_Launcher_Injector
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
             Main main = new Main();
-            Login lg = new Login();
             main.Show();
-            lg.Close();
-            
+            this.Hide();
         }
     }
 }

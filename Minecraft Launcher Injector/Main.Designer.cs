@@ -485,7 +485,7 @@ namespace Minecraft_Launcher_Injector
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            this.Closed += new System.EventHandler(this.Main_FormClosed);
         }
 
         #endregion

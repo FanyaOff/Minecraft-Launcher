@@ -307,7 +307,7 @@ namespace Minecraft_Launcher_Injector
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Minecraft Laucnher";
-            this.Load += new System.EventHandler(this.Login_Load);
+            this.Closed += new System.EventHandler(this.Login_FormClosed);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
