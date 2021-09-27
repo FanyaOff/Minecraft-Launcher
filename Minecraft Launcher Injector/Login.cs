@@ -45,8 +45,10 @@ namespace Minecraft_Launcher_Injector
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
             Main main = new Main();
+            Login lg = new Login();
             main.Show();
-            this.Close();
+            lg.Close();
+            
         }
     }
 }

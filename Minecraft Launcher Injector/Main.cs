@@ -35,6 +35,16 @@ namespace Minecraft_Launcher_Injector
             guna2PictureBox2.Image = Properties.Resources.Button1;
         }
 
+        private void ButtonMouseDown(object sender, EventArgs e)
+        {
+            guna2PictureBox2.Image = Properties.Resources.ButtonPressed;
+        }
+
+        private void ButtonMouseUp(object sender, EventArgs e)
+        {
+            guna2PictureBox2.Image = Properties.Resources.Button1;
+        }
+
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {

@@ -300,6 +300,8 @@ namespace Minecraft_Launcher_Injector
             this.guna2PictureBox2.UseTransparentBackground = true;
             this.guna2PictureBox2.MouseEnter += new System.EventHandler(this.ButtonMouseEnter);
             this.guna2PictureBox2.MouseLeave += new System.EventHandler(this.ButtonMouseLeave);
+            this.guna2PictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ButtonMouseUp);
+            this.guna2PictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonMouseDown);
             // 
             // guna2PictureBox5
             // 
